@@ -2,10 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>extent</ToolCommandName>
-    <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -34,10 +32,10 @@
 
   <ItemGroup>
     <PackageReference Include="ExtentReports" Version="4.1.0" />
-    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="3.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
-    <PackageReference Include="System.Management" Version="4.7.0" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Management" Version="7.0.2" />
   </ItemGroup>
 
 </Project>
